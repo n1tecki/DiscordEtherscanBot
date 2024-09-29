@@ -18,4 +18,4 @@ def get_erc20_transactions(wallet_address, contract_address):
     return response['result']
 
 
-print(get_eth_transactions("0x0521AF31e1106e739801441f87D599388dE4b0F9"))
+print(get_erc20_transactions("0x0521AF31e1106e739801441f87D599388dE4b0F9", "0x9A594F5ed8D119B73525dfE23aDBCeCa77fD828D"))
